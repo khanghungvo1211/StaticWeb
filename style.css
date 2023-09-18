@@ -1,0 +1,65 @@
+/* Styles for the About section */
+#about {
+    background-color: #f7f7f7; /* Light gray background */
+    padding: 3rem;
+    color: #333; /* Dark gray text color */
+    text-align: center; /* Center-align text */
+}
+
+#about h2 {
+    font-size: 2.5rem; /* Larger heading size */
+    margin-bottom: 1.5rem;
+    color: #000; /* Black heading color */
+}
+
+#about p {
+    font-size: 1.25rem; /* Slightly larger paragraph font size */
+    line-height: 1.6; /* Slightly increased line height for readability */
+}
+
+/* Styles for the Contact section */
+#contact {
+    background-color: #fff; /* White background */
+    padding: 3rem;
+    color: #333; /* Dark gray text color */
+    text-align: center; /* Center-align text */
+}
+
+#contact h2 {
+    font-size: 2.5rem; /* Larger heading size */
+    margin-bottom: 1.5rem;
+    color: #000; /* Black heading color */
+}
+
+#contact p {
+    font-size: 1.25rem; /* Slightly larger paragraph font size */
+    line-height: 1.6; /* Slightly increased line height for readability */
+}
+
+/* Link styles in the Contact section */
+#contact a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove underlines */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+#contact a:hover {
+    color: #0056b3; /* Darker blue color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Button style */
+button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    color: #fff; /* White text color */
+    background: #007bff; /* Blue background color */
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background 0.3s; /* Smooth background color transition on hover */
+}
+
+button:hover {
+    background: #0056b3; /* Darker blue background color on hover */
+}
